@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		816F321B1CB39FD00085C647 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 816F321A1CB39FD00085C647 /* main.m */; };
+		816F321E1CB39FD00085C647 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 816F321D1CB39FD00085C647 /* AppDelegate.m */; };
+		816F32211CB39FD00085C647 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 816F32201CB39FD00085C647 /* ViewController.m */; };
+		816F32241CB39FD00085C647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816F32221CB39FD00085C647 /* Main.storyboard */; };
+		816F32261CB39FD00085C647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816F32251CB39FD00085C647 /* Assets.xcassets */; };
+		816F32291CB39FD00085C647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816F32271CB39FD00085C647 /* LaunchScreen.storyboard */; };
+		816F32341CB39FD00085C647 /* CustomSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 816F32331CB39FD00085C647 /* CustomSwitchTests.m */; };
+		816F323F1CB39FD00085C647 /* CustomSwitchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 816F323E1CB39FD00085C647 /* CustomSwitchUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		816F32301CB39FD00085C647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 816F320E1CB39FD00085C647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816F32151CB39FD00085C647;
+			remoteInfo = CustomSwitch;
+		};
+		816F323B1CB39FD00085C647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 816F320E1CB39FD00085C647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816F32151CB39FD00085C647;
+			remoteInfo = CustomSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		816F32161CB39FD00085C647 /* CustomSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		816F321A1CB39FD00085C647 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		816F321C1CB39FD00085C647 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		816F321D1CB39FD00085C647 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		816F321F1CB39FD00085C647 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		816F32201CB39FD00085C647 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		816F32231CB39FD00085C647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		816F32251CB39FD00085C647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		816F32281CB39FD00085C647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		816F322A1CB39FD00085C647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816F322F1CB39FD00085C647 /* CustomSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		816F32331CB39FD00085C647 /* CustomSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomSwitchTests.m; sourceTree = "<group>"; };
+		816F32351CB39FD00085C647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816F323A1CB39FD00085C647 /* CustomSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		816F323E1CB39FD00085C647 /* CustomSwitchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomSwitchUITests.m; sourceTree = "<group>"; };
+		816F32401CB39FD00085C647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		816F32131CB39FD00085C647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816F322C1CB39FD00085C647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816F32371CB39FD00085C647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		816F320D1CB39FD00085C647 = {
+			isa = PBXGroup;
+			children = (
+				816F32181CB39FD00085C647 /* CustomSwitch */,
+				816F32321CB39FD00085C647 /* CustomSwitchTests */,
+				816F323D1CB39FD00085C647 /* CustomSwitchUITests */,
+				816F32171CB39FD00085C647 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		816F32171CB39FD00085C647 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				816F32161CB39FD00085C647 /* CustomSwitch.app */,
+				816F322F1CB39FD00085C647 /* CustomSwitchTests.xctest */,
+				816F323A1CB39FD00085C647 /* CustomSwitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		816F32181CB39FD00085C647 /* CustomSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				816F321C1CB39FD00085C647 /* AppDelegate.h */,
+				816F321D1CB39FD00085C647 /* AppDelegate.m */,
+				816F321F1CB39FD00085C647 /* ViewController.h */,
+				816F32201CB39FD00085C647 /* ViewController.m */,
+				816F32221CB39FD00085C647 /* Main.storyboard */,
+				816F32251CB39FD00085C647 /* Assets.xcassets */,
+				816F32271CB39FD00085C647 /* LaunchScreen.storyboard */,
+				816F322A1CB39FD00085C647 /* Info.plist */,
+				816F32191CB39FD00085C647 /* Supporting Files */,
+			);
+			path = CustomSwitch;
+			sourceTree = "<group>";
+		};
+		816F32191CB39FD00085C647 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				816F321A1CB39FD00085C647 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		816F32321CB39FD00085C647 /* CustomSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				816F32331CB39FD00085C647 /* CustomSwitchTests.m */,
+				816F32351CB39FD00085C647 /* Info.plist */,
+			);
+			path = CustomSwitchTests;
+			sourceTree = "<group>";
+		};
+		816F323D1CB39FD00085C647 /* CustomSwitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				816F323E1CB39FD00085C647 /* CustomSwitchUITests.m */,
+				816F32401CB39FD00085C647 /* Info.plist */,
+			);
+			path = CustomSwitchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		816F32151CB39FD00085C647 /* CustomSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816F32431CB39FD00085C647 /* Build configuration list for PBXNativeTarget "CustomSwitch" */;
+			buildPhases = (
+				816F32121CB39FD00085C647 /* Sources */,
+				816F32131CB39FD00085C647 /* Frameworks */,
+				816F32141CB39FD00085C647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomSwitch;
+			productName = CustomSwitch;
+			productReference = 816F32161CB39FD00085C647 /* CustomSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		816F322E1CB39FD00085C647 /* CustomSwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816F32461CB39FD00085C647 /* Build configuration list for PBXNativeTarget "CustomSwitchTests" */;
+			buildPhases = (
+				816F322B1CB39FD00085C647 /* Sources */,
+				816F322C1CB39FD00085C647 /* Frameworks */,
+				816F322D1CB39FD00085C647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				816F32311CB39FD00085C647 /* PBXTargetDependency */,
+			);
+			name = CustomSwitchTests;
+			productName = CustomSwitchTests;
+			productReference = 816F322F1CB39FD00085C647 /* CustomSwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		816F32391CB39FD00085C647 /* CustomSwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816F32491CB39FD00085C647 /* Build configuration list for PBXNativeTarget "CustomSwitchUITests" */;
+			buildPhases = (
+				816F32361CB39FD00085C647 /* Sources */,
+				816F32371CB39FD00085C647 /* Frameworks */,
+				816F32381CB39FD00085C647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				816F323C1CB39FD00085C647 /* PBXTargetDependency */,
+			);
+			name = CustomSwitchUITests;
+			productName = CustomSwitchUITests;
+			productReference = 816F323A1CB39FD00085C647 /* CustomSwitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		816F320E1CB39FD00085C647 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "吴玉铁";
+				TargetAttributes = {
+					816F32151CB39FD00085C647 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					816F322E1CB39FD00085C647 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 816F32151CB39FD00085C647;
+					};
+					816F32391CB39FD00085C647 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 816F32151CB39FD00085C647;
+					};
+				};
+			};
+			buildConfigurationList = 816F32111CB39FD00085C647 /* Build configuration list for PBXProject "CustomSwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 816F320D1CB39FD00085C647;
+			productRefGroup = 816F32171CB39FD00085C647 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				816F32151CB39FD00085C647 /* CustomSwitch */,
+				816F322E1CB39FD00085C647 /* CustomSwitchTests */,
+				816F32391CB39FD00085C647 /* CustomSwitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		816F32141CB39FD00085C647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816F32291CB39FD00085C647 /* LaunchScreen.storyboard in Resources */,
+				816F32261CB39FD00085C647 /* Assets.xcassets in Resources */,
+				816F32241CB39FD00085C647 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816F322D1CB39FD00085C647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816F32381CB39FD00085C647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		816F32121CB39FD00085C647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816F32211CB39FD00085C647 /* ViewController.m in Sources */,
+				816F321E1CB39FD00085C647 /* AppDelegate.m in Sources */,
+				816F321B1CB39FD00085C647 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816F322B1CB39FD00085C647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816F32341CB39FD00085C647 /* CustomSwitchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816F32361CB39FD00085C647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816F323F1CB39FD00085C647 /* CustomSwitchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		816F32311CB39FD00085C647 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816F32151CB39FD00085C647 /* CustomSwitch */;
+			targetProxy = 816F32301CB39FD00085C647 /* PBXContainerItemProxy */;
+		};
+		816F323C1CB39FD00085C647 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816F32151CB39FD00085C647 /* CustomSwitch */;
+			targetProxy = 816F323B1CB39FD00085C647 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		816F32221CB39FD00085C647 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				816F32231CB39FD00085C647 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		816F32271CB39FD00085C647 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				816F32281CB39FD00085C647 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		816F32411CB39FD00085C647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		816F32421CB39FD00085C647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		816F32441CB39FD00085C647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tiege.CustomSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		816F32451CB39FD00085C647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tiege.CustomSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		816F32471CB39FD00085C647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CustomSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tiege.CustomSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomSwitch.app/CustomSwitch";
+			};
+			name = Debug;
+		};
+		816F32481CB39FD00085C647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CustomSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tiege.CustomSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomSwitch.app/CustomSwitch";
+			};
+			name = Release;
+		};
+		816F324A1CB39FD00085C647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CustomSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tiege.CustomSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CustomSwitch;
+			};
+			name = Debug;
+		};
+		816F324B1CB39FD00085C647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CustomSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tiege.CustomSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CustomSwitch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		816F32111CB39FD00085C647 /* Build configuration list for PBXProject "CustomSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816F32411CB39FD00085C647 /* Debug */,
+				816F32421CB39FD00085C647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816F32431CB39FD00085C647 /* Build configuration list for PBXNativeTarget "CustomSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816F32441CB39FD00085C647 /* Debug */,
+				816F32451CB39FD00085C647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		816F32461CB39FD00085C647 /* Build configuration list for PBXNativeTarget "CustomSwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816F32471CB39FD00085C647 /* Debug */,
+				816F32481CB39FD00085C647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		816F32491CB39FD00085C647 /* Build configuration list for PBXNativeTarget "CustomSwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816F324A1CB39FD00085C647 /* Debug */,
+				816F324B1CB39FD00085C647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 816F320E1CB39FD00085C647 /* Project object */;
+}
